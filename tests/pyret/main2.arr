@@ -51,3 +51,4 @@ import file("./tests/modules/test-aliased-names-same-type.arr") as _
 import file("./tests/modules/test-double-rename.arr") as _
 import file("./tests/modules/test-provide-data-with-provide-star.arr") as _
 import file("./tests/modules/import-datatype-as-type-alias.arr") as _
+import file("./tests/test-units.arr") as _

@@ -87,6 +87,7 @@ fun ann-flatness(ann :: A.Ann, val-env :: FEnv, ann-env :: FEnv, mb :: SD.Mutabl
       else:
         none
       end
+    | a-unit(l, base, u) => ann-flatness(base, val-env, ann-env)
     | a-checked(checked, residual) => none
   end
 end
